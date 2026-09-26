@@ -1,0 +1,176 @@
+export const personalInfo = {
+  name: "Muhammad Iqbal Firdaus",
+  tagline: "Full-Stack Web & Mobile Developer",
+  institution: "Universitas Jambi",
+  location: "Jambi, Indonesia",
+  bio: "Pengembang perangkat lunak yang berfokus pada pembangunan aplikasi web modern dan aplikasi mobile yang efisien. Berpengalaman dalam ekosistem Laravel, Livewire, Tailwind CSS, React, serta Flutter untuk menghasilkan solusi digital yang solutif dan berorientasi pengguna.",
+  avatarUrl: "https://avatars.githubusercontent.com/u/110145737?v=4",
+  socials: {
+    github: "https://github.com/Kyudyoz",
+    email: "mailto:miqbalf242003@gmail.com", 
+    linkedin: "https://www.linkedin.com/in/muhammad-iqbal-firdaus-53113b299/",
+    whatsapp: "https://wa.me/6289508256626",
+    whatsappNumber: "6289508256626",
+  },
+  stats: [
+    { label: "Repositori GitHub", value: "13+" },
+    { label: "Spesialisasi", value: "Laravel & Flutter" },
+    { label: "Lulusan", value: "Universitas Jambi (S1, Sistem Informasi)" },
+  ]
+};
+
+export const skills = [
+  {
+    category: "Frontend Development",
+    items: ["React.js", "Tailwind CSS", "Livewire", "Blade", "HTML5 & Modern CSS", "JavaScript (ES6+)"]
+  },
+  {
+    category: "Backend & Database",
+    items: ["PHP", "Laravel", "MySQL", "RESTful API", "Composer", "Database Migration & Seeding"]
+  },
+  {
+    category: "Mobile & Algoritma",
+    items: ["Flutter", "Dart", "Python", "Optimasi Riset Operasi", "Simplex Method"]
+  },
+  {
+    category: "Tools & DevOps",
+    items: ["Git & GitHub", "Vite", "Vercel", "GitHub Pages", "VS Code", "Postman"]
+  }
+];
+
+export const projectCategories = [
+  "Semua",
+  "Unggulan",
+  "Full-Stack Web",
+  "Mobile App",
+  "Sistem Informasi & Riset"
+];
+
+export const projects = [
+  {
+    id: "pawon3d",
+    title: "Pawon3D - Sistem Manajemen Toko & POS",
+    badge: "Tugas Akhir / Skripsi",
+    category: "Full-Stack Web",
+    featured: true,
+    description: "Aplikasi web komprehensif untuk sistem manajemen toko dan Point of Sales (POS) yang dikembangkan sebagai proyek tugas akhir (Skripsi) di Universitas Jambi. Menghadirkan kasir responsif, inventaris produk, dan rekap transaksi.",
+    image: "https://raw.githubusercontent.com/Kyudyoz/pawon3d/master/public/assets/logo/logo-pawon3d.png",
+    fallbackBg: "from-amber-500/20 to-orange-500/10",
+    tags: ["Laravel", "Livewire", "Blade", "Tailwind CSS", "MySQL", "Vite"],
+    repoUrl: "https://github.com/Kyudyoz/pawon3d",
+    demoUrl: null,
+    highlight: "Sistem Toko Kue dengan interaktivitas Livewire & integrasi struk/PDF.",
+  },
+  {
+    id: "pos-livewire",
+    title: "POS Kafe (Point of Sales)",
+    badge: "Live Deployment",
+    category: "Full-Stack Web",
+    featured: true,
+    description: "Sistem kasir cerdas untuk kafe dan kedai kopi modern. Menggunakan reaktivitas real-time Laravel Livewire untuk pemesanan instan tanpa reload, manajemen menu dinamis, dan kalkulasi total belanja otomatis.",
+    image: "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=800&q=80",
+    fallbackBg: "from-emerald-500/20 to-teal-500/10",
+    tags: ["Laravel", "Livewire", "Tailwind CSS", "Vercel", "PHP"],
+    repoUrl: "https://github.com/Kyudyoz/pos-livewire",
+    demoUrl: "https://poskafe.vercel.app",
+    highlight: "Sudah live di Vercel dengan optimasi serverless PHP.",
+  },
+  {
+    id: "restaurant-app",
+    title: "Restaurant Management & Kitchen App",
+    badge: "Capstone Project",
+    category: "Full-Stack Web",
+    featured: true,
+    description: "Proyek Capstone Fullstack Kelompok 5 (Gamelab). Platform manajemen operasional restoran lengkap mulai dari penerimaan order pelanggan, koordinasi layar dapur (kitchen display), hingga rekap meja dan kasir.",
+    image: "https://raw.githubusercontent.com/Kyudyoz/Restaurant-App/master/public/static/images/resto/kitchen.jpg",
+    fallbackBg: "from-blue-500/20 to-indigo-500/10",
+    tags: ["Laravel", "Blade", "Tailwind CSS", "Vite", "MySQL"],
+    repoUrl: "https://github.com/Kyudyoz/Restaurant-App",
+    demoUrl: null,
+    highlight: "Kerja tim kolaboratif Capstone dengan pembagian alur dapur & meja kasir.",
+  },
+  {
+    id: "sisaku",
+    title: "Sisaku - Mobile Personal Finance",
+    badge: "Mobile App",
+    category: "Mobile App",
+    featured: true,
+    description: "Aplikasi mobile Android/iOS berbasis Flutter untuk manajemen keuangan personal. Memungkinkan pengguna mencatat arus kas (pemasukan/pengeluaran), rekapitulasi berkala, serta mengunggah galeri nota transaksi.",
+    image: "https://raw.githubusercontent.com/Kyudyoz/sisaku/master/assets/img/splash.png",
+    fallbackBg: "from-violet-500/20 to-purple-500/10",
+    tags: ["Flutter", "Dart", "Mobile UI", "SQLite", "State Management"],
+    repoUrl: "https://github.com/Kyudyoz/sisaku",
+    demoUrl: null,
+    highlight: "Antarmuka rapi dengan multi-bahasa (ID/EN) dan visualisasi rekap keuangan.",
+  },
+  {
+    id: "ulah",
+    title: "ULAH - UNJA Lapor Hilang",
+    badge: "Campus System",
+    category: "Sistem Informasi & Riset",
+    featured: false,
+    description: "Sistem informasi pelaporan dan penemuan barang hilang (Lost & Found) untuk sivitas akademika Universitas Jambi. Mempermudah mahasiswa saling mengabarkan barang tercecer dan klaim kepemilikan yang terverifikasi.",
+    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=800&q=80",
+    fallbackBg: "from-cyan-500/20 to-blue-500/10",
+    tags: ["Laravel", "PHP", "Bootstrap", "MySQL", "Authentication"],
+    repoUrl: "https://github.com/Kyudyoz/ULAH-Unja-Lapor-Hilang",
+    demoUrl: null,
+    highlight: "Menyelesaikan persoalan nyata di lingkungan kampus UNJA.",
+  },
+  {
+    id: "mini-project",
+    title: "Katalog Busana & Konveksi Digital",
+    badge: "Live on GitHub Pages",
+    category: "Full-Stack Web",
+    featured: false,
+    description: "Website e-katalog responsif untuk produk konveksi (celana, jaket, kaos olahraga). Dilengkapi galeri katalog produk, navigasi cepat per kategori, dan integrasi pemesanan via WhatsApp toko.",
+    image: "https://raw.githubusercontent.com/Kyudyoz/Mini-Project/master/img/fototoko.jpg",
+    fallbackBg: "from-rose-500/20 to-pink-500/10",
+    tags: ["HTML5", "CSS3", "JavaScript", "GitHub Pages", "Responsive Web"],
+    repoUrl: "https://github.com/Kyudyoz/Mini-Project",
+    demoUrl: "https://kyudyoz.github.io/Mini-Project/",
+    highlight: "Situs publik ringan dan responsif, diakses melalui GitHub Pages.",
+  },
+  {
+    id: "surat-pengantar",
+    title: "Sistem Informasi Surat Pengantar",
+    badge: "Tugas MPSI",
+    category: "Sistem Informasi & Riset",
+    featured: false,
+    description: "Aplikasi tata kelola administrasi surat pengantar berbasis web. Mempermudah pengajuan permohonan surat di tingkat RT dengan validasi status otomatis dan pencetakan surat terstandar.",
+    image: "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=800&q=80",
+    fallbackBg: "from-sky-500/20 to-indigo-500/10",
+    tags: ["Laravel", "Blade", "PHP", "MySQL"],
+    repoUrl: "https://github.com/Kyudyoz/surat-pengantar",
+    demoUrl: null,
+    highlight: "Otomasi siklus persuratan dari pengajuan hingga approval.",
+  },
+  {
+    id: "riset-operasi",
+    title: "Operations Research Optimization & Simplex",
+    badge: "Algorithm & Math",
+    category: "Sistem Informasi & Riset",
+    featured: false,
+    description: "Suite implementasi algoritma riset operasi untuk pemecahan masalah linear programming. Memuat penyelesaian melalui metode grafik, substitusi aljabar, dan algoritma matriks Simplex.",
+    image: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&w=800&q=80",
+    fallbackBg: "from-amber-500/20 to-yellow-500/10",
+    tags: ["Python", "Linear Programming", "Simplex Method", "Algoritma"],
+    repoUrl: "https://github.com/Kyudyoz/riset_operasi",
+    demoUrl: null,
+    highlight: "Perhitungan matematis akurat untuk optimasi fungsi objektif & kendala.",
+  },
+  {
+    id: "fraxinus",
+    title: "Fraxinus - Web App Project",
+    badge: "Tugas Akhir Pemrograman Web 2",
+    category: "Full-Stack Web",
+    featured: false,
+    description: "Proyek pengembangan sistem aplikasi jual beli tanaman berbasis Laravel dengan pengelolaan database terstruktur, routing dinamis, dan autentikasi aman.",
+    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
+    fallbackBg: "from-zinc-500/20 to-slate-500/10",
+    tags: ["Laravel", "PHP", "MVC", "MySQL", "Blade"],
+    repoUrl: "https://github.com/Kyudyoz/fraxinus",
+    demoUrl: null,
+    highlight: "Membuat website jual beli tanaman dengan Laravel.",
+  }
+];
