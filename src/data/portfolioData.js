@@ -58,7 +58,7 @@ export const projects = [
     fallbackBg: "from-amber-500/20 to-orange-500/10",
     tags: ["Laravel", "Livewire", "Blade", "Tailwind CSS", "MySQL", "Vite"],
     repoUrl: "https://github.com/Kyudyoz/pawon3d",
-    demoUrl: null,
+    demoUrl: "https://pawon3d-demo.onrender.com",
     highlight: "Sistem Toko Kue dengan interaktivitas Livewire & integrasi struk/PDF.",
   },
   {
