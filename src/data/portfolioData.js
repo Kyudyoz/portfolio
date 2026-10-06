@@ -72,7 +72,7 @@ export const projects = [
     fallbackBg: "from-emerald-500/20 to-teal-500/10",
     tags: ["Laravel", "Livewire", "Tailwind CSS", "Vercel", "PHP"],
     repoUrl: "https://github.com/Kyudyoz/pos-livewire",
-    demoUrl: "https://poskafe.vercel.app",
+    demoUrl: "https://pos-kafe.onrender.com",
     highlight: "Sudah live di Vercel dengan optimasi serverless PHP.",
   },
   {
