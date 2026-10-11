@@ -43,7 +43,7 @@ export default function Projects({ onSelectProject }) {
               Proyek Pilihan & Repositori
             </h2>
             <p className="text-zinc-600 dark:text-zinc-400 text-sm sm:text-base mt-2 max-w-xl">
-              Daftar proyek aplikasi web, mobile, dan sistem informasi yang dikembangkan dan bersumber dari repositori GitHub saya.
+              Beberapa proyek kuliah dan mandiri yang kodenya tersedia di GitHub.
             </p>
           </div>
 

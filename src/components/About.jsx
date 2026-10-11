@@ -5,18 +5,18 @@ import { personalInfo } from '../data/portfolioData';
 export default function About() {
   const points = [
     {
-      title: "Solusi Berbasis Kebutuhan Nyata",
-      desc: "Mengembangkan aplikasi yang langsung menjawab tantangan nyata, mulai dari sistem kasir kafe, pelaporan barang hilang kampus, hingga pencatatan keuangan pribadi.",
+      title: "Proyek dengan Fungsi yang Jelas",
+      desc: "Portofolio ini mencakup aplikasi kasir kafe, pelaporan barang hilang di kampus, dan pencatatan keuangan pribadi.",
       icon: <Rocket className="w-5 h-5 text-emerald-500" />
     },
     {
-      title: "Arsitektur Bersih & Terstruktur",
-      desc: "Berpengalaman mengimplementasikan pola MVC dengan Laravel, reaktivitas modern menggunakan Livewire & React, serta desain antarmuka bersih dengan Tailwind CSS.",
+      title: "Web dan Mobile",
+      desc: "Saya menggunakan Laravel dan Livewire untuk aplikasi web, React untuk antarmuka, serta Flutter untuk aplikasi mobile.",
       icon: <Code className="w-5 h-5 text-blue-500" />
     },
     {
-      title: "Pondasi Akademik Kuat",
-      desc: "Menempuh pendidikan di Universitas Jambi dengan ketertarikan pada rekayasa perangkat lunak, optimasi komputasi riset operasi, dan mobile app engineering.",
+      title: "Latar Belakang Sistem Informasi",
+      desc: "Saya belajar di Universitas Jambi dan pernah mengerjakan proyek rekayasa perangkat lunak serta riset operasi.",
       icon: <GraduationCap className="w-5 h-5 text-purple-500" />
     }
   ];
@@ -32,17 +32,17 @@ export default function About() {
               <span>Tentang Saya</span>
             </div>
             <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-zinc-900 dark:text-zinc-50 mb-6">
-              Membangun Pengalaman Digital yang Bersih & Bertenaga
+              Saya Membuat Aplikasi Web dan Mobile
             </h2>
             <div className="space-y-4 text-zinc-600 dark:text-zinc-400 text-sm sm:text-base leading-relaxed">
               <p>
-                Saya adalah mahasiswa di <span className="font-semibold text-zinc-900 dark:text-zinc-200">{personalInfo.institution}</span> yang memiliki antusiasme mendalam pada rekayasa web dan mobile.
+                Saya belajar Sistem Informasi di <span className="font-semibold text-zinc-900 dark:text-zinc-200">{personalInfo.institution}</span> dan tertarik mengembangkan aplikasi web maupun mobile.
               </p>
               <p>
-                Melalui berbagai proyek akademik, capstone, dan riset mandiri, saya terbiasa membangun sistem dari perancangan basis data hingga antarmuka pengguna yang responsif. Saya percaya bahwa kode yang baik adalah kode yang rapi, mudah dirawat, dan memberikan manfaat langsung bagi penggunanya.
+                Saya pernah mengerjakan proyek kuliah, capstone, dan proyek mandiri. Pekerjaan saya mencakup pengelolaan data, logika aplikasi, dan antarmuka.
               </p>
               <p>
-                Saat ini, saya banyak berfokus pada ekosistem <span className="text-emerald-600 dark:text-emerald-400 font-medium">Laravel & Livewire</span>, perancangan antarmuka <span className="text-emerald-600 dark:text-emerald-400 font-medium">Tailwind CSS & React</span>, serta pengembangan mobile <span className="text-emerald-600 dark:text-emerald-400 font-medium">Flutter</span>.
+                Teknologi yang paling sering saya gunakan adalah <span className="text-emerald-600 dark:text-emerald-400 font-medium">Laravel & Livewire</span>, <span className="text-emerald-600 dark:text-emerald-400 font-medium">Tailwind CSS & React</span>, dan <span className="text-emerald-600 dark:text-emerald-400 font-medium">Flutter</span>.
               </p>
             </div>
           </div>

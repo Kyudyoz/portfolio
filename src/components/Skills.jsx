@@ -30,7 +30,7 @@ export default function Skills() {
             Tech Stack & Alat Kerja
           </h2>
           <p className="text-zinc-600 dark:text-zinc-400 text-sm sm:text-base mt-2">
-            Teknologi dan kerangka kerja yang rutin saya gunakan untuk mengembangkan sistem web handal, aplikasi mobile, dan pemrosesan algoritma komputasi.
+            Berikut teknologi yang saya gunakan dalam proyek web, aplikasi mobile, dan tugas riset operasi.
           </p>
         </div>
 

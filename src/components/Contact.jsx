@@ -49,10 +49,10 @@ export default function Contact() {
             <span>Hubungi Saya</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-zinc-900 dark:text-zinc-50">
-            Mari Mulai Berkolaborasi
+            Hubungi Saya
           </h2>
           <p className="text-zinc-600 dark:text-zinc-400 text-sm sm:text-base mt-2">
-            Apakah Anda memiliki proyek, peluang kerja sama, atau sekadar ingin berdiskusi seputar teknologi? Jangan ragu untuk menghubungi saya.
+            Ada pertanyaan tentang proyek atau ingin membicarakan peluang kerja? Kirim pesan melalui WhatsApp atau email.
           </p>
         </div>
 
@@ -181,7 +181,7 @@ export default function Contact() {
                   Kirim Pesan via WhatsApp
                 </h3>
                 <p className="text-xs sm:text-sm text-zinc-500 dark:text-zinc-400 mt-1">
-                  Isi form di bawah untuk otomatis merapikan pesan Anda dan membukanya langsung di WhatsApp.
+                  Tulis pesan Anda. Setelah dikirim, WhatsApp akan terbuka dengan pesan yang sudah disiapkan.
                 </p>
               </div>
 
@@ -243,7 +243,7 @@ export default function Contact() {
                       <span>Kirim via WhatsApp</span>
                     </button>
                     <p className="text-[11px] text-zinc-500 dark:text-zinc-400 mt-2">
-                      * Mengarahkan langsung ke WhatsApp Web / Aplikasi tanpa perantara bot.
+                      WhatsApp akan terbuka di tab atau aplikasi baru.
                     </p>
                   </div>
                 </form>
